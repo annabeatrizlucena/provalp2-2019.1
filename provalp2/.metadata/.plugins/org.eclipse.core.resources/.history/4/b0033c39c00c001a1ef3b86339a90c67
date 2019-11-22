@@ -1,0 +1,7 @@
+package simulal;
+
+public interface Animal{
+
+	public String toString();
+	public void crescer();
+}

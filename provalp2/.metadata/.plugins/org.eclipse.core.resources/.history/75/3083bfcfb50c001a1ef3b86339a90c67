@@ -1,0 +1,6 @@
+package simulal;
+
+public class Morcego extends AnimalAbstrato{
+	
+
+}

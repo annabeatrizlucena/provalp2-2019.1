@@ -1,0 +1,5 @@
+package simulal;
+
+public class Morcego implements Animal{
+
+}

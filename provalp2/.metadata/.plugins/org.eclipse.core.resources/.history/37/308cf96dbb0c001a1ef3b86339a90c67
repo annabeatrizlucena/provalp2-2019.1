@@ -1,0 +1,16 @@
+package simulal;
+
+public class Elefante extends AnimalAbstrato {
+
+	public Elefante(int id) {
+		this.id = id;
+		this.idade = 0;
+		this.peso = 120;
+		this.tamanho = "G";
+		this.tipo = "FANTE";
+	}
+	
+	public void crescer() {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package simulal;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SimulalTest {
+
+	Simulal simulal = new Simulal();
+	@Test
+	void cadastraCachorro() {
+		assertEquals(1, simulal.cadastrarCachorroFilhote());
+		
+	}
+
+}

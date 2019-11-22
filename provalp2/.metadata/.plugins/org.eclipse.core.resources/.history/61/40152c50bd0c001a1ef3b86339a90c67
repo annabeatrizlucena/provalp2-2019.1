@@ -1,0 +1,76 @@
+package simulal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SimulalTest {
+
+	Simulal simulal = new Simulal();
+
+	@Test
+	void cadastraCachorro() {
+		assertEquals(1, simulal.cadastrarCachorroFilhote());
+
+	}
+
+	@Test
+	void cadastraElefante() {
+		assertEquals(1, simulal.cadastrarElefanteFilhote());
+		assertEquals(2, simulal.cadastrarElefanteFilhote());
+
+	}
+
+	@Test
+	void cadastrarMorcego() {
+		assertEquals(1, simulal.cadastrarElefanteFilhote());
+		assertEquals(2, simulal.cadastrarElefanteFilhote());
+		assertEquals(3, simulal.cadastrarMorcegoFilhote());
+	}
+
+	@Test
+	void toStringAnimais() {
+		assertEquals(1, simulal.cadastrarCachorroFilhote());
+		assertEquals("CAO 1 - 0.4 kg - 0 - P", simulal.exibirAnimal(1));
+	}
+
+	@Test
+	void excecao() {
+		assertThrows(IllegalArgumentException.class, () -> {
+			simulal.exibirAnimal(10);
+		});
+	}
+	
+	@Test
+	void testeCrescimento() {
+		simulal.cadastrarCachorroFilhote();
+		simulal.crescerAnimal(1);
+		assertEquals(simulal.exibirAnimal(1), "CAO 1 - 1.1 kg - 1 - P");
+	}
+	
+	@Test
+	void testeCrescimentoElefante() {
+		simulal.cadastrarElefanteFilhote();
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		simulal.crescerAnimal(1);
+		assertEquals(simulal.exibirAnimal(1), "FANTE 1 - 2670.0 kg - 20 - G");
+	}
+}

@@ -1,0 +1,13 @@
+package simulal;
+
+public abstract class AnimalAbstrato implements Animal{
+	 int idade;
+	
+	int id;
+	
+	public String toString() {
+		return this.tipo + " " + this.id + " - " + this.peso + " kg - " + this.idade + " - " + this.tamanho  ;
+		
+	}
+	public abstract void crescer();
+}

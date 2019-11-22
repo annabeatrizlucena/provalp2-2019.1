@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SimulalTest" project="ProvaLp2" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="simulal.SimulalTest" time="0.0" displayname="SimulalTest" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]">
+    <testcase name="cadastraCachorro" classname="simulal.SimulalTest" time="0.0" displayname="cadastraCachorro()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:cadastraCachorro()]"/>
+    <testcase name="cadastraElefante" classname="simulal.SimulalTest" time="0.0" displayname="cadastraElefante()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:cadastraElefante()]"/>
+  </testsuite>
+</testrun>

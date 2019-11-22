@@ -1,0 +1,8 @@
+package simulal;
+
+public abstract class AnimalAbstrato {
+	int idade;
+	double peso;
+	String tamanho;
+	int id;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SimulalTest" project="ProvaLp2" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="simulal.SimulalTest" time="0.096" displayname="SimulalTest" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]">
+    <testcase name="toStringAnimais" classname="simulal.SimulalTest" time="0.031" displayname="toStringAnimais()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:toStringAnimais()]"/>
+    <testcase name="cadastraCachorro" classname="simulal.SimulalTest" time="0.004" displayname="cadastraCachorro()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:cadastraCachorro()]"/>
+    <testcase name="excecao" classname="simulal.SimulalTest" time="0.015" displayname="excecao()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:excecao()]"/>
+    <testcase name="cadastrarMorcego" classname="simulal.SimulalTest" time="0.016" displayname="cadastrarMorcego()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:cadastrarMorcego()]"/>
+    <testcase name="cadastraElefante" classname="simulal.SimulalTest" time="0.008" displayname="cadastraElefante()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:cadastraElefante()]"/>
+    <testcase name="testeCrescimento" classname="simulal.SimulalTest" time="0.002" displayname="testeCrescimento()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:testeCrescimento()]"/>
+    <testcase name="crescerMorcego" classname="simulal.SimulalTest" time="0.004" displayname="crescerMorcego()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:crescerMorcego()]"/>
+    <testcase name="testeCrescimentoElefante" classname="simulal.SimulalTest" time="0.016" displayname="testeCrescimentoElefante()" uniqueid="[engine:junit-jupiter]/[class:simulal.SimulalTest]/[method:testeCrescimentoElefante()]"/>
+  </testsuite>
+</testrun>

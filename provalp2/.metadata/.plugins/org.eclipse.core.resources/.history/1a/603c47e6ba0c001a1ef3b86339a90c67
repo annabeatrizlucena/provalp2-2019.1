@@ -1,0 +1,13 @@
+package simulal;
+
+public class Cachorro extends AnimalAbstrato{
+	public Cachorro(int id) {
+		this.id = id;
+		this.idade = 0;
+		this.peso = 0.4;
+		this.tamanho = "P";
+		this.tipo = "CAO";
+		
+	}
+
+}

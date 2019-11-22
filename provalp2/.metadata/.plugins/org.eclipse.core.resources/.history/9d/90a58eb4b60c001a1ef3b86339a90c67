@@ -1,0 +1,35 @@
+package simulal;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Simulal {
+
+	Map <Integer, Animal> animais;
+	int quantidadeCadastros;
+	public Simulal() {
+		this.animais = new LinkedHashMap<>();
+		this.quantidadeCadastros = 0;
+	}
+	
+	public int cadastrarCachorroFilhote() {
+		quantidadeCadastros++;
+		return quantidadeCadastros++;
+		
+	}
+	public int cadastrarElefanteFilhote() {
+		quantidadeCadastros++;
+		return quantidadeCadastros++;
+		
+	}
+	public int cadastrarMorcegoFilhote() {
+		quantidadeCadastros++;
+		return quantidadeCadastros++;
+		
+	}
+	public String exibirAnimal() {
+		return null;
+		
+		
+	}
+}

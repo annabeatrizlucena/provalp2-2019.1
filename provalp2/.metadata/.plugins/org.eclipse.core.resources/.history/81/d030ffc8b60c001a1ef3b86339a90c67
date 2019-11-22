@@ -1,0 +1,28 @@
+package simulal;
+public class facade {
+    
+	public int cadastrarCachorroFilhote() {
+		return 0;
+		
+	}
+	public int cadastrarElefanteFilhote() {
+		return 0;
+		
+	}
+	public int cadastrarMorcegoFilhote() {
+		return 0;
+		
+	}
+	public String exibirAnimal() {
+		return null;
+		
+		
+	}
+	
+ 	
+	//cadastrarCachorroFilhote(): int
+   // cadastrarElefanteFilhote(): int
+    //cadastrarMorcegoFilhote(): int
+    //exibirAnimal(id: int): String
+
+}
